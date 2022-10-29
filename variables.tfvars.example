@@ -1,0 +1,6 @@
+ENV = "production"
+LINODE_REGION = "us-east"
+CLUSTER_LABEL = "my-cluster"
+SERVER_COUNT = 1
+SERVER_AUTOSCALE_MIN = 1
+SERVER_AUTOSCALE_MAX = 10
