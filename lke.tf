@@ -2,7 +2,7 @@
 
 resource "linode_lke_cluster" "my-cluster" {
     label       = var.CLUSTER_LABEL
-    k8s_version = "1.23"
+    k8s_version = "1.24"
     region      = var.LINODE_REGION
     tags        = [var.ENV]
 
